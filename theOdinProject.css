@@ -1,0 +1,17 @@
+body{
+    font-family: 'VT323', monospace, 'Courier New', Courier;
+    
+}
+
+.card {
+    
+}
+img{
+   border-radius: 4%;
+   width: 35%;
+   align-content: center;
+}
+figcaption{
+    color: rgb(104, 52, 33);
+
+}
