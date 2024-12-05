@@ -71,14 +71,15 @@ footer{
     font-size: large;
 }
 
-@media (max-width: 768px) {
+@media (min-height: 900px) {
     .main {
         flex-direction: column; /* Change to vertical layout on mobile */
         align-items: center; /* Center the cards */
     }
 
     .card {
-        width: 80%; /* Adjust card width for mobile */
+        width: 73%; /* Adjust card width for mobile */
         margin-bottom: 20px; /* Space between cards */
+        height: auto;
     }
 }
